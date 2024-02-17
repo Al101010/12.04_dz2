@@ -12,7 +12,7 @@ test('should sorteds', () => {
         {name: 'маг', health: 100},
         {name: 'лучник', health: 80},
     ];
-    result = sorteds(warsMy);
+    // result = sorteds(warsMy);
 
-    expect(result).toBe(sortMy);
+    expect(sorteds(warsMy)).toBe(sortMy);
 });
